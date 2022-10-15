@@ -2,11 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * if n is this print that
+/**
+ * main - Entry point
+ *
+ * Description: 'the program's description'
+ * 
+ * Return: Always 0 (Success)
  */
 
-int main (void)
+int main(void)
 {
 	int n;
 

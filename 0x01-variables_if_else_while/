@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: 'Program prints all single digits of base 10 from 0'
+ * Description: 'Program prints alphabet in lowercase, ffd by new line'
  *
  * Return: Always 0 (Success)
  */
@@ -11,13 +11,10 @@
 int main(void)
 {
 	int x;
-	
-	x = 0;
 
-	while (x < 10)
+	for (x = 'z'; x >= 'a'; x++)
 	{
 		putchar (x);
-		x++;
 	}
 	putchar ('\n');
 	return (0);

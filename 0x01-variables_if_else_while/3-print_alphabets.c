@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/n uppercase**
+/**
  * main - Entry point
  *
  * Description: 'Program prints alphabet in lowercase, then in uppercase'

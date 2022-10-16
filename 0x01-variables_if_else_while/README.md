@@ -2,3 +2,4 @@
 2. This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n.
 3. Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line. You can only use the putchar function. You can only use putchar three times in your code.
 4. Write a program that prints the alphabet in lowercase, followed by a new line. Print all the letters except q and e. You can only use putchar twice in your code.
+5. Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.

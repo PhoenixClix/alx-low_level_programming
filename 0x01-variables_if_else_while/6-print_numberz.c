@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - Entry point
@@ -10,14 +11,21 @@
 
 int main(void)
 {
-	int x;
-	
+	/*int x;
+
 	x = 0;
 
 	while (x < 10)
 	{
+		putchar (x), x++;
+	}
+	putchar ('\n');*/
+
+	char x = '0';
+
+	for (x = '0'; x <= '9'; x++)
+	{
 		putchar (x);
-		x++;
 	}
 	putchar ('\n');
 	return (0);

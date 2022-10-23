@@ -8,3 +8,4 @@
 8. Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.
 9. Write a program that prints all possible combinations of single-digit numbers. Numbers must be separated by comma and space. Use only putchar function.
 10. Write a program that prints all possible combinations of two-digits. Numbers must be separated by comma and space. Use only putchar function.
+11. Write a program that prints all possible combinations of three-digits. Numbers must be sepa    rated by comma and space. Use only putchar function.

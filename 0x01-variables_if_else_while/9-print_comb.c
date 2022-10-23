@@ -3,7 +3,8 @@
 /**
  * main - Entry point
  *
- * Description: 'Program prints all possible combos of single-digit no.s'
+ * Description: 'Program prints all possible combos of two-digit no.s'
+ * 'separated by comma and space'
  *
  * Return: Always 0 (Success)
  */

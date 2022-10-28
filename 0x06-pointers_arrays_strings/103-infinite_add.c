@@ -60,7 +60,7 @@ char *string_sum(char *n1, char *n2, char *r, int indx_r)
  * @size_r: buffer size
  *
  * Return:pointer to result (r can store the sum)
- *         0 (r cannot store the sum) 
+ *	0 (r cannot store the sum)
  */
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r)

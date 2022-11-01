@@ -8,35 +8,37 @@
 
 int main(void)
 {
-	long int i, n1, n2, n;
+	unsigned long int i, n1, n2, n1_1, n1_2, n2_1, n2_2;
 
-	n1 = 0;
-	n2 = 1;
+	n1 = 1;
+	n2 = 2;
 
-	for (i = 0; i < 98; i++)
+	printf("%lu", n1);
+
+	for (i = 1; i < 91; i++)
 	{
-		/*if (n1 != 20365011074)
-		{
-			printf("%ld, ", n1);
-		} else
-		{
-			printf("%ld\n", n1);
-		}
-		n = n1 + n2;
-		n1 = n2;
-		n2 = n;*/
+		printf(", %lu", n2);
+		n2 = n2 + n1;
+		n1 = n2 - n1;
 
-		n = n1 + n2;
-		printf("%lu", n);
-
-		n1 = n2;
-		n2 = n;
-
-		if (i == 97)
-			printf("\n");
-		else
-			printf(", ");
 	}
+
+	n1_1 = n1 / 1000000000;
+	n1_2 = n1 % 1000000000;
+	n2_1 = n2 / 1000000000;
+	n2_2 = n2 % 1000000000;
+
+	for (i = 92; i < 99; ++i)
+	{
+		printf(", %lu", n2_1 + (n2_2 / 1000000000));
+		printf("%lu", n2_2 % 1000000000);
+		n2_1 = n2_1 + n1_1;
+		n1_1 = n2_1 - n1_1;
+		n2_2 = n2_2 + n1_2;
+		n1_2 = n2_2 - n1_2;
+	}
+
+	printf("\n");
 
 	return (0);
 }

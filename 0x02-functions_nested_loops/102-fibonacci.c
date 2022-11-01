@@ -15,13 +15,14 @@ int main(void)
 
 	n2 = 2;
 
-	for (i = 0; i < 50; i++)
+	for (i = 1; i <= 50; ++i)
 	{
-		printf("%ld, ", n1);
-
-		if (i == 49)
+		if (n1 != 20365011074)
 		{
-			printf("\n");
+			printf("%ld, ", n1);
+		} else
+		{
+			printf("%ld\n", n1);
 		}
 		n = n1 + n2;
 		n1 = n2;

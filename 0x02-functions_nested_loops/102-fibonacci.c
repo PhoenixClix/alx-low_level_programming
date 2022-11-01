@@ -7,7 +7,7 @@
  * Return: Always 0 (Success)
  */
 
-int main (void)
+int main(void)
 {
 	long int i, n1, n2, n;
 
@@ -21,7 +21,7 @@ int main (void)
 
 		if (i == 49)
 		{
-			printf("%ld\n", n1);
+			printf("\n");
 		}
 		n = n1 + n2;
 		n1 = n2;

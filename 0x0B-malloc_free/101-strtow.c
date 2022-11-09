@@ -53,7 +53,7 @@ int wordcount(char *str)
 /**
   * strtow - Splits a string into words.
   * @str: String to be splitted.
-  * 
+  *
   * Return: A pointer to an array of strings (words).
   *	    NULL - if str == NULL or str == "" or function fails.
   */

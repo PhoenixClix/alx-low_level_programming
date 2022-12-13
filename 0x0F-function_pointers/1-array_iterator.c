@@ -2,7 +2,7 @@
 
 /**
   * array_iterator - Function that executes a function given as a parameter on
-  * 		     each element of an array.
+  *		     each element of an array.
   * @array: Array to be iterated.
   * @size: size of the array.
   * @action: pointer to the function executing a function.
@@ -16,6 +16,6 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 	while (size-- > 0)
 	{
 		action(*array);
-		array++;	
+		array++;
 	}
 }

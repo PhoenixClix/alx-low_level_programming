@@ -48,7 +48,7 @@ void print_float(va_list arg)
 }
 
 /**
- * print_string - Prints a string.
+ * print_str - Prints a string.
  * @arg: A list of arguments pointing to
  *       the string to be printed.
  */
